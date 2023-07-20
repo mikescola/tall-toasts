@@ -11,9 +11,6 @@ use Illuminate\Contracts\View\View;
 use Illuminate\Support\Facades\App;
 use Livewire\Component;
 use Usernotnull\Toast\ToastManager;
-use function Usernotnull\Toast\Livewire\app;
-use function Usernotnull\Toast\Livewire\config;
-use function Usernotnull\Toast\Livewire\session;
 
 class ToastComponent extends Component
 {
