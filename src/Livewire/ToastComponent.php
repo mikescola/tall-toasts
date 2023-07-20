@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Usernotnull\Toast\Http\Livewire;
+namespace Usernotnull\Toast\Livewire;
 
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\View\Factory;
@@ -11,6 +11,9 @@ use Illuminate\Contracts\View\View;
 use Illuminate\Support\Facades\App;
 use Livewire\Component;
 use Usernotnull\Toast\ToastManager;
+use function Usernotnull\Toast\Http\Livewire\app;
+use function Usernotnull\Toast\Http\Livewire\config;
+use function Usernotnull\Toast\Http\Livewire\session;
 
 class ToastComponent extends Component
 {
